@@ -1,0 +1,5 @@
+/* Instead of tabs being “buttons” they just stretch the full height from the URL bar to the top of the window. */
+.tab-background {
+	--tab-border-radius: 0;
+	--proton-tab-block-margin: 0;
+}

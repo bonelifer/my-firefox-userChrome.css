@@ -1,0 +1,57 @@
+/* Disable animation for tracking protection icon */
+#tracking-protection-icon-box[active][animate] #tracking-protection-icon-animatable-image {
+	animation: none !important;
+}
+/* Always hide the tracking protection icon */
+#tracking-protection-icon-container, /* Firefox v70 */
+#tracking-protection-icon-box { /* Firefox v69 */
+	display: none;
+}
+
+
+/* REMOVE SANDWICH BUTTON */
+ #PanelUI-button {
+     display:none 
+}
+
+
+/* Hide the "close" x on the active tab, we already have middle click for that */
+.tab-close-button {
+    display: none;
+}
+
+
+/*
+ * Removes the "PageAction Button", the 3-dot button near the right of the
+ * urlbar which gives you options such as: "Bookmark this page", "Save page to
+ * pocket", etc.
+ *
+ * There's actually nothing in this menu which isn't either a) useless or b) easily achievable in other menus.
+ *
+ *
+ * Contributor(s): DrPugsley, Madis0
+ */
+
+#pageActionButton {
+	display: none;
+}
+
+
+/* Hide these context menu items. */
+#context-sendlinktodevice,#menu_openTour,#help_importFromAnotherBrowser {
+	display: none;
+}
+
+
+/* Remove BLUE line from top of Active TAB */
+/*.tabbrowser-tab {
+	--tab-line-color: hsla(0,0%,100%,0.0) !important;
+}
+*/
+
+/* This was 1px for some reason, which de-aligned the text from the vertical center of the tab. */
+.tab-label {
+	margin-top: 0px !important;
+}
+
+

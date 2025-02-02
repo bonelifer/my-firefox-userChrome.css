@@ -1,0 +1,22 @@
+/* Make Firefox scrollbars wider */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+scrollbar, scrollbar[orient="vertical"] {
+  -moz-appearance: none !important;
+  width: 30px !important;  /* Adjust the width as needed */
+}
+
+scrollbar[orient="horizontal"] {
+  -moz-appearance: none !important;
+  height: 30px !important; /* Adjust the height as needed */
+}
+
+scrollbar thumb {
+  -moz-appearance: none !important;
+  background-color: rgba(0, 0, 0, 0.5) !important; /* Customize thumb color if desired */
+}
+
+scrollbar thumb:hover {
+  background-color: rgba(0, 0, 0, 0.7) !important; /* Customize thumb color on hover */
+}
+

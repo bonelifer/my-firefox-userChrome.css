@@ -1,0 +1,13 @@
+/*
+  Overlay sound icon on favicon
+  Credits: Eva#0111
+*/
+.tabbrowser-tab .tab-icon-overlay {
+  display: inherit !important;
+}
+
+.tabbrowser-tab .tab-icon-sound {
+  display: none;
+}
+
+

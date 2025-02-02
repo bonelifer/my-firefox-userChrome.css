@@ -1,0 +1,58 @@
+/* https://github.com/gabeweb/Firefox-Browser-Proton-Custom/blob/main/userChrome.css */
+
+
+
+#widget-overflow-fixed-list .subviewbutton-nav::after {
+  content: unset !important;
+}
+
+.widget-overflow-list .toolbarbutton-1 {
+  -moz-box-align: center !important;
+  -moz-box-orient: vertical !important;
+  height: 43px !important;
+  margin-left: 8px !important;
+  margin: 7px 5px !important;
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  width: 150px !important;
+  display: inline !important;
+}
+
+.widget-overflow-list .toolbarbutton-1:hover {
+  border: 1px !important;
+}
+
+.widget-overflow-list .toolbarbutton-1 > .toolbarbutton-text {
+  padding-top: 6px;
+  padding-inline-start: 0em !important;
+  padding-inline-end: 1px !important;
+}
+
+.widget-overflow-list .toolbarbutton-1 > .toolbarbutton-icon {
+  width: 16px !important;
+  opacity: 0.8 !important;
+}
+
+#widget-overflow-mainView .panel-subview-body {
+  display: grid;
+}
+
+#widget-overflow-mainView .panel-subview-body {
+  overflow: unset;
+}
+
+photonpanelmultiview .panel-subview-body {
+  padding: 6px 8px !important;
+}
+
+.widget-overflow-list {
+  display: inline !important;
+}
+
+#widget-overflow-mainView,
+.widget-overflow-list,
+#widget-overflow-fixed-list {
+  min-width: 850px !important;
+  max-width: 2000px !important;
+}
+

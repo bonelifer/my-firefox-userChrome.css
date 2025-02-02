@@ -1,0 +1,51 @@
+/* 
+ * Recreates the basic functionality of the popular Roomy Bookmarks Toolbar add-on in Firefox 57+.
+ * Uncomment the section with the functionality that you want, leave all other sections commented.
+ * This only affects toplevel toolbar bookmarks and folders, bookmarks and subfolders in folders are unaffected.
+ * The tooltips on long hover (showing bookmark name and link) are unaffected.
+ */
+
+ /* some margin settings, do not comment out */
+.bookmark-item > .toolbarbutton-text {
+  margin-top: -1px !important;
+}
+.bookmark-item {
+  margin: -3px !important;
+}
+
+
+/* No text on toolbar bookmarks; Text on bookmark folders. No hover effect. */
+
+#PlacesToolbarItems > .bookmark-item:not([container]):not([open="true"]) > .toolbarbutton-text {
+  display: none !important;
+}
+
+#PlacesToolbarItems > .bookmark-item:not([container]):not([open="true"]) > .toolbarbutton-icon[label]:not([label=""]) {
+  margin-inline-end: 0px !important;
+}
+
+
+
+/* No text on toolbar bookmarks; No text on bookmark folders. Show bookmark text on hover. */
+/*
+#PlacesToolbarItems > .bookmark-item:not(:hover):not([open="true"]) > .toolbarbutton-text {
+  display: none !important;
+}
+
+#PlacesToolbarItems > .bookmark-item:not(:hover):not([open="true"]) > .toolbarbutton-icon[label]:not([label=""]) {
+  margin-inline-end: 0px !important;
+}
+*/
+
+
+/* No text on toolbar bookmarks; Text on bookmark folders. Show bookmark text on hover. */
+/*
+#PlacesToolbarItems > .bookmark-item:not(:hover):not([container]):not([open="true"]) > .toolbarbutton-text {
+  display: none !important;
+}
+
+#PlacesToolbarItems > .bookmark-item:not(:hover):not([container]):not([open="true"]) > .toolbarbutton-icon[label]:not([label=""]) {
+  margin-inline-end: 0px !important;
+}
+*/
+
