@@ -25,3 +25,10 @@ Personal `userChrome.css` setup for customizing Firefox's UI.
 4. Restart Firefox.
 
 Comment out `@import` lines in `chrome/userChrome.css` to disable individual tweaks.
+
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0**.
+
+See [LICENSE](LICENSE) for more information.
