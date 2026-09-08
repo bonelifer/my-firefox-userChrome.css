@@ -1,0 +1,16 @@
+/* https://github.com/danielrusso/firefox-proton-supercharger/blob/main/userChrome.css */
+/* Show Sound Icon While Audio Playing On Non-Selected Tab */
+:root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-stack[soundplaying] .tab-icon-image {
+	opacity: 0 !important;
+}
+
+:root .tabbrowser-tab:not([selected], [multiselected]) .tab-icon-stack[soundplaying] .tab-icon-overlay[soundplaying] {
+	opacity: 1 !important;
+}
+
+/* Make Tab More Distinct With Audio Playing */
+.tab-icon-overlay:not([crashed]):is([soundplaying], [muted], [activemedia-blocked]) {
+	background-color: purple !important;
+	fill: white !important;
+	fill-opacity: 1 !important;
+}

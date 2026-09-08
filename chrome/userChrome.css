@@ -2,10 +2,15 @@
 /*@import url("addressbar.css") screen; */
 
 @import url("./roomybookmarks.css") screen;
-@import url("./overridemegabarenlargement.css") screen;
-@import url("./remove_megabar.css") screen;
 @import url("./disable.css") screen;
 @import url("./findbar.css") screen;
-@import url("./soundicon-on-favicon.css") screen;
-@import url("./urlbarfullheight.css") screen;
-@import url("./widget-overflow.css") screen;
+@import url("./fullheight-tabs.css") screen;
+@import url("./overflow.css") screen;
+@import url("./debloat.css") screen;
+@import url("./audio-tab-mute.css") screen;
+@import url("./compact_proton.css") screen;
+@import url("./compact_about_config.css") screen;
+@import url("./private-browser.css") screen;
+@import url("./tab-group-editor.css") screen;
+@import url("./scrollbars.css") screen;
+

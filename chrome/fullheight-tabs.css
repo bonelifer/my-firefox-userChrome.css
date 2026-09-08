@@ -1,0 +1,5 @@
+/* Make tabs square and stretch them to the full height of the tab bar. */
+.tabbrowser-tab {
+	--tab-border-radius: 0 !important;
+	--tab-block-margin: 0 !important;
+}

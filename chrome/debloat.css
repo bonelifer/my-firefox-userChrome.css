@@ -107,3 +107,31 @@
 .unified-extensions-item-row-wrapper {
 	margin-right: -10px !important;
 }
+
+
+/* Firefox scrollbar width */
+* {
+	scrollbar-width: auto !important;
+}
+
+
+/* WebKit scrollbar customization retained for now */
+::-webkit-scrollbar {
+	width: 25px !important;
+	height: 15px !important;
+}
+
+::-webkit-scrollbar-track {
+	background: #212121 !important;
+	border-radius: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #555555 !important;
+	border-radius: 10px !important;
+	border: 3px solid #212121 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #888888 !important;
+}

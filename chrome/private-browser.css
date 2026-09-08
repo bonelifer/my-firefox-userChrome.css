@@ -1,0 +1,11 @@
+/* https://github.com/pabli24/ff/blob/main/userChrome.css */
+
+/* Private Browsing indicator: hide the text label but keep the icon */
+#private-browsing-indicator-with-label > label {
+	display: none !important;
+}
+
+/* Keep a small amount of spacing around the Private Browsing indicator */
+#private-browsing-indicator-with-label {
+	margin-inline: var(--space-small) !important;
+}
