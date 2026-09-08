@@ -1,0 +1,8 @@
+/* Hide Tab Group options from the tab context menu */
+#context_moveTabToNewGroup,
+#context_moveSplitViewToNewGroup,
+#context_moveTabToGroup,
+#context_ungroupTab,
+#context_ungroupSplitView {
+	display: none !important;
+}

@@ -1,0 +1,5 @@
+@-moz-document domain("youtube.com") {
+	* {
+		scrollbar-width: auto !important;
+	}
+}
