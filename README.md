@@ -11,17 +11,14 @@ Personal `userChrome.css` setup for customizing Firefox's UI.
 | `chrome/audio-tab-mute.css` | Hides the tab audio icon on unselected tabs and highlights it when playing/muted. |
 | `chrome/compact_about_config.css` | Makes the `about:config` list more compact. |
 | `chrome/compact_proton.css` | Shrinks Proton UI spacing (toolbar buttons, tabs, menus) back toward the old compact mode. |
-| `chrome/debloat.css` | Hides assorted UI chrome (tracking-protection icon, hamburger menu, Page Actions, Firefox View, Profiles menu, etc.) and customizes scrollbars. |
 | `chrome/disable.css` | Hides assorted UI chrome (tracking-protection icon, hamburger menu, Page Actions, Firefox View, Profiles menu, etc.). |
 | `chrome/findbar.css` | Moves the Find Bar above the page and repositions its border. |
 | `chrome/fullheight-tabs.css` | Makes tabs square and stretches them to the full height of the tab bar. |
 | `chrome/overflow.css` | Makes extension icons in the overflow/unified-extensions panel more compact. |
 | `chrome/private-browser.css` | Hides the "Private Browsing" text label while keeping its icon. |
 | `chrome/roomybookmarks.css` | Recreates the Roomy Bookmarks Toolbar add-on's spacing for top-level bookmarks. |
-| `chrome/scrollbars.css` | Sets scrollbar color (width is controlled via `widget.non-native-theme.scrollbar.size` in `about:config`). |
+| `chrome/scrollbars.css` | Widens scrollbars and sets scrollbar color (width is also controlled via `widget.non-native-theme.scrollbar.size` in `about:config`). |
 | `chrome/tab-group-editor.css` | Hides Tab Group options from the tab context menu. |
-
-`disable.css` and `debloat.css` currently overlap significantly — both hide the same set of UI elements, with `debloat.css` additionally including scrollbar rules. This mirrors the live profile as-is; worth reviewing for consolidation later.
 
 ## Installation
 
