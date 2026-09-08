@@ -4,6 +4,10 @@
  * widget.non-native-theme.scrollbar.size = 30
  */
 
+* {
+	scrollbar-width: auto !important;
+}
+
 :root {
 	scrollbar-color: rgba(0, 0, 0, 0.5) transparent !important;
 }
